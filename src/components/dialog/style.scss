@@ -1,0 +1,22 @@
+.container {
+  margin: 2rem;
+  border: 1px solid darkgray;
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  width: 30%;
+  height: 100px;
+
+  .body {
+    padding: 5px;
+    font-size: 1rem;
+  }
+
+  .control {
+    display: flex;
+    justify-content: flex-end;
+
+    .button {
+      margin: 0 1rem;
+    }
+  }
+}
