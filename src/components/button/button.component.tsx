@@ -8,7 +8,7 @@ const styles = theme => ({
     backgroundColor: "red",
   },
   label: {
-    fontSize: "2rem",
+    fontSize: "0.75rem",
   }
 });
 

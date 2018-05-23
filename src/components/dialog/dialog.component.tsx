@@ -20,7 +20,7 @@ export class Dialog extends React.Component<DialogProps, {}> {
           <p>I am a dialog</p>
         </div>
         <div className={style.control}>
-          <CustomButton label="OK" classes={{root: style.button}}/>
+          <CustomButton label="OK" classes={{root: style.button, label: style.label}}/>
           <CustomButton label="Cancel" />
         </div>
       </div>
